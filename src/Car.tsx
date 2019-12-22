@@ -1,8 +1,9 @@
 import React from 'react';
+import { ICar } from './state'
 
 interface IProps {
-    model: string;
-    year: number;
+    model: ICar;
+    year: ICar;
 }
 
 class Car extends React.Component {
@@ -13,7 +14,7 @@ class Car extends React.Component {
 
     render() {
         return (
-            <div>fawfwf</div>
+            <div>awfwf</div>
         )
     }
 }

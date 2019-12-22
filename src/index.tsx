@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './state'
+import { createGarage } from './state';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
